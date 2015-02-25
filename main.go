@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	n := 10
+	n := 5
 	var sum time.Duration
 
 	for i := 0; i < n; i++ {
@@ -25,10 +25,11 @@ func main() {
 			problems.Problem_9()
 			problems.Problem_10()
 			problems.Problem_11()
-			problems.Problem_12()w
+			problems.Problem_12()
+			problems.Problem_13()
 		*/
 
-		problems.Problem_13()
+		problems.Problem_14()
 
 		sum += time.Since(start)
 	}
