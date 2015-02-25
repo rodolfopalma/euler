@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	n := 5
+	n := 10
 	var sum time.Duration
 
 	for i := 0; i < n; i++ {
