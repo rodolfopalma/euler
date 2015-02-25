@@ -25,9 +25,10 @@ func main() {
 			problems.Problem_9()
 			problems.Problem_10()
 			problems.Problem_11()
+			problems.Problem_12()w
 		*/
 
-		problems.Problem_12()
+		problems.Problem_13()
 
 		sum += time.Since(start)
 	}

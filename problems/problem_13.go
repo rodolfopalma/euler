@@ -1,14 +1,12 @@
 package problems
 
-/*
 import (
 	"fmt"
 	"math/big"
 )
 
 func Problem_13() {
-	var sum big.Int
-	numbers_stringed := []string{
+	data := []string{
 		"37107287533902102798797998220837590246510135740250",
 		"46376937677490009712648124896970078050417018260538",
 		"74324986199524741059474233309513058123726617309629",
@@ -111,11 +109,13 @@ func Problem_13() {
 		"53503534226472524250874054075591789781264330331690",
 	}
 
-	sum := big.Int(0)
+	sum := big.NewInt(0)
 
-	for i, value_stringed := range numbers_stringed {
-		fmt.Scanf(value_stringed)
+	for _, el := range data {
+		bigEl := new(big.Int)
+		fmt.Sscan(el, bigEl)
+		sum.Add(sum, bigEl)
 	}
 
+	fmt.Println(sum)
 }
-*/
